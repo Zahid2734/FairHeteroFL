@@ -2,7 +2,7 @@
 
 # FairHeteroFL: Hardware-Sensitive Fairness in Federated Learning with Heterogeneous Environment
 
-This repository is the official implementation of ![My Paper Title]([https://arxiv.org/abs/2030.12345](https://github.com/Zahid2734/FairHeteroFL/blob/main/images/Architecture.pdf). 
+This repository is the official implementation of ![](images/Architecture.jpg). 
 
 >📋  Optional: include a graphic explaining your approach/main result, bibtex entry, link to demos, blog posts and tutorials
 
