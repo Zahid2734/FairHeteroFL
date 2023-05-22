@@ -28,16 +28,28 @@ Keep the dataset in the same directory of the dataset name.
 To train the model(s) in the paper, navigate to the directory and run this command:
 
 MNIST IID train
-```MNIST IID train
+```
 python train mnist iid.py q qm1 qm2 qm3 qm4 qm5
 ```
 MNIST Non-IID train
-```MNIST Non-IID train
+```
 python train mnist noniid.py q qm1 qm2 qm3 qm4 qm5
 ```
 MNIST Non-IID Extreme train
-```MNIST Non-IID Extreme train
+```
 python train mnist noniid extreme.py q qm1 qm2 qm3 qm4 qm5
+```
+CIFAR10 IID train
+```
+python train cifar iid.py q qm1 qm2 qm3 qm4 qm5
+```
+CIFAR10 Non-IID train
+```
+python train cifar noniid.py q qm1 qm2 qm3 qm4 qm5
+```
+CIFAR10 Non-IID Extreme train
+```
+python train cifar noniid extreme.py q qm1 qm2 qm3 qm4 qm5
 ```
 
 >📋  Describe how to train the models, with example commands on how to train the models in your paper, including the full training procedure and appropriate hyperparameters.
