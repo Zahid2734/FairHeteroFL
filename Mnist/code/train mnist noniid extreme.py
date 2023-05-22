@@ -10,7 +10,7 @@ random.seed(5)
 tf.random.set_seed(8)
 
 
-def train_mnist_noniid(q, q1, q2, q3, q4, q5):
+def train_mnist_noniid_extreme(q, q1, q2, q3, q4, q5):
     file_name = "../non_iid_mnist_extreme.pkl"
     clients = open_file(file_name)
 
@@ -337,4 +337,4 @@ if __name__ == "__main__":
     q3 = sys.argv[4]
     q4 = sys.argv[5]
     q5 = sys.argv[6]
-    train_mnist_noniid(int(q), int(q1), int(q2), int(q3), int(q4), int(q5))
+    train_mnist_noniid_extreme(int(q), int(q1), int(q2), int(q3), int(q4), int(q5))
