@@ -42,7 +42,7 @@ def train_mnist_iid(q, q1, q2, q3, q4, q5):
 
     loss = 'categorical_crossentropy'
     metrics = ['accuracy']
-    epochs = 3
+    epochs = 300
     lr = 0.001
     L=1/lr
     bla = SimpleMLP
