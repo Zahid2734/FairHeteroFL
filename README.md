@@ -21,7 +21,7 @@ You can directly download the Dataset for CIFAR10 [CIFAR10 IID](https://drive.go
 
 You can directly download the Dataset for FEMNIST [FEMNIST TRAIN](https://drive.google.com/file/d/1dhwHcwHvgHGraG-OMXzVA4WrpiNLoqAV/view?usp=sharing), [FEMNIST TEST](https://drive.google.com/file/d/1Oe3yEPa2TruLkEOTLsZtipZjERBs-a1M/view?usp=sharing)
 
->📋  Describe how to set up the environment, e.g. pip/conda/docker commands, download datasets, etc...
+Keep the dataset in the same directory of the dataset name.
 
 ## Training
 
