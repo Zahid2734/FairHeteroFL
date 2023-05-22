@@ -80,6 +80,7 @@ python eval.py --model-file mymodel.pth --benchmark imagenet
 You can download pretrained models here:
 
 - [MNIST](https://github.com/Zahid2734/FairHeteroFL/tree/main/Mnist/pretrain%20model) trained on HeteroFL and FairHeteroFL can be found here. 
+- [CIFAR10)](https://github.com/Zahid2734/FairHeteroFL/tree/main/Cifar10/pretrain%20model) trained on HeteroFL and FairHeteroFL can be found here. 
 
 >📋  Give a link to where/how the pretrained models can be downloaded and how they were trained (if applicable).  Alternatively you can have an additional column in your results table with a link to the models.
 
