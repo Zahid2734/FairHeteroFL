@@ -2,7 +2,10 @@
 
 # FairHeteroFL: Hardware-Sensitive Fairness in Federated Learning with Heterogeneous Environment
 
-This repository is the official implementation of ![](images/Architecture.jpg). 
+This repository is the official implementation of FairHeteroFL-
+<p align="center" width="100%">
+    <img width="66%" src="images/Architecture.jpg">
+</p>
 
 >📋  Optional: include a graphic explaining your approach/main result, bibtex entry, link to demos, blog posts and tutorials
 
@@ -82,7 +85,10 @@ You can download pretrained models here:
 
 ## Results
 
-Our model achieves the following performance on :![](images/result.PNG)
+Our model achieves the following performance on :
+<p align="center" width="100%">
+    <img width="66%" src="images/result.PNG">
+</p>
 
 >📋  Include a table of results from your paper, and link back to the leaderboard for clarity and context. If your main result is a figure, include that figure and link to the command or notebook to reproduce it. 
 
