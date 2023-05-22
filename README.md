@@ -51,6 +51,14 @@ CIFAR10 Non-IID Extreme train
 ```
 python train cifar noniid extreme.py q qm1 qm2 qm3 qm4 qm5
 ```
+FEMNIST train
+```
+python train femnist.py q qm1 qm2 qm3 qm4 qm5
+```
+SHAKESPEARE train
+```
+python train shakespeare.py q qm1 qm2 qm3 qm4 qm5
+```
 
 >📋  Describe how to train the models, with example commands on how to train the models in your paper, including the full training procedure and appropriate hyperparameters.
 
