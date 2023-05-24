@@ -7,7 +7,7 @@ This repository is the official implementation of FairHeteroFL-
     <img width="66%" src="images/Architecture.jpg">
 </p>
 
->📋  Optional: include a graphic explaining your approach/main result, bibtex entry, link to demos, blog posts and tutorials
+>📋 we propose a novel hardware-sensitive FL method called FairHeteroFL that promotes fairness among heterogeneous federated clients. Our approach offers tunable fairness within a group of devices with the same ML architecture as well as across different groups. Our evaluation under MNIST, FEMNIST, CIFAR10, and SHAKESPEARE datasets reveals that FairHeteroFL can reduce variance among participating clients’ test loss compared to the existing state-of-the-art techniques, resulting in increased overall performances
 
 ## Requirements
 
@@ -61,18 +61,17 @@ SHAKESPEARE train
 python train shakespeare.py q qm1 qm2 qm3 qm4 qm5
 ```
 
->📋  Describe how to train the models, with example commands on how to train the models in your paper, including the full training procedure and appropriate hyperparameters.
+>📋  This train the model with particualar value of q and qms. After training the train and test losses and accuracies are automatically save in the data folder for future evaluation. You can tune q and qms value to get your desired model performance.
 
 ## Evaluation
 
-To evaluate my model on ImageNet, run:
+To evaluate the groupwise performance, run the evaluate.py located in data for every dataset:
 
 ```eval
-python eval.py --model-file mymodel.pth --benchmark imagenet
+python evaluate.py "file_name"
 ```
 
->📋  Describe how to evaluate the trained models on benchmarks reported in the paper, give commands that produce the results (section below).
-
+>📋  The file name should include extension ".pkl". This produces the groupwise mean and variance of the test loss for a particular value of q and qms.
 ## Pre-trained Models
 
 You can download pretrained models here:
@@ -82,7 +81,7 @@ You can download pretrained models here:
 - [FEMNIST](https://github.com/Zahid2734/FairHeteroFL/tree/main/Femnist/pretrain%20model) trained on HeteroFL and FairHeteroFL can be found here.
 - [SHAKESPEARE](https://github.com/Zahid2734/FairHeteroFL/tree/main/Shakespeare/pretrain%20model) trained on HeteroFL and FairHeteroFL can be found here.
 
->📋  Give a link to where/how the pretrained models can be downloaded and how they were trained (if applicable).  Alternatively you can have an additional column in your results table with a link to the models.
+>📋 The pretrained model were the model used to generate the main result in the paper. You also can generate the model using the parameter of q and qms in the paper.
 
 ## Results
 
@@ -91,7 +90,7 @@ Our model achieves the following performance on :
     <img width="80%" src="images/result.PNG">
 </p>
 
->📋  Include a table of results from your paper, and link back to the leaderboard for clarity and context. If your main result is a figure, include that figure and link to the command or notebook to reproduce it. 
+>📋  This is the main result of our paper. This shows that with proper tuning of q and qms, we can get more balanced performance accross clients from all the groups with different hardware capabilities. 
 
 
 ## Contributing
