@@ -402,4 +402,4 @@ if __name__ == "__main__":
     q3 = sys.argv[4]
     q4 = sys.argv[5]
     q5 = sys.argv[6]
-    train_shakespeare(int(q), int(q1), int(q2), int(q3), int(q4), int(q5))
+    train_shakespeare(float(q), float(q1), float(q2), float(q3), float(q4), float(q5))
