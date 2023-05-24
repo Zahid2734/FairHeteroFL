@@ -76,7 +76,7 @@ python evaluate.py "file_name"
 
 You can download pretrained models here:
 
-- [MNIST](https://github.com/Zahid2734/FairHeteroFL/tree/main/Mnist/pretrain%20model) trained on HeteroFL and FairHeteroFL can be found here. 
+- [MNIST](Mnist/pretrain%20model) trained on HeteroFL and FairHeteroFL can be found here. 
 - [CIFAR10](https://github.com/Zahid2734/FairHeteroFL/tree/main/Cifar10/pretrain%20model) trained on HeteroFL and FairHeteroFL can be found here. 
 - [FEMNIST](https://github.com/Zahid2734/FairHeteroFL/tree/main/Femnist/pretrain%20model) trained on HeteroFL and FairHeteroFL can be found here.
 - [SHAKESPEARE](https://github.com/Zahid2734/FairHeteroFL/tree/main/Shakespeare/pretrain%20model) trained on HeteroFL and FairHeteroFL can be found here.
