@@ -77,9 +77,9 @@ python evaluate.py "file_name"
 You can download pretrained models here:
 
 - [MNIST](Mnist/pretrain%20model) trained on HeteroFL and FairHeteroFL can be found here. 
-- [CIFAR10](https://github.com/Zahid2734/FairHeteroFL/tree/main/Cifar10/pretrain%20model) trained on HeteroFL and FairHeteroFL can be found here. 
-- [FEMNIST](https://github.com/Zahid2734/FairHeteroFL/tree/main/Femnist/pretrain%20model) trained on HeteroFL and FairHeteroFL can be found here.
-- [SHAKESPEARE](https://github.com/Zahid2734/FairHeteroFL/tree/main/Shakespeare/pretrain%20model) trained on HeteroFL and FairHeteroFL can be found here.
+- [CIFAR10](Cifar10/pretrain%20model) trained on HeteroFL and FairHeteroFL can be found here. 
+- [FEMNIST](Femnist/pretrain%20model) trained on HeteroFL and FairHeteroFL can be found here.
+- [SHAKESPEARE](Shakespeare/pretrain%20model) trained on HeteroFL and FairHeteroFL can be found here.
 
 >📋 The pretrained model were the model used to generate the main result in the paper. You also can generate the model using the parameter of q and qms in the paper.
 
