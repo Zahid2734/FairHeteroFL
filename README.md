@@ -86,7 +86,7 @@ You can download pre-trained models here:
 
 Our model achieves the following performance:
 <p align="center" width="100%">
-    <img width="80%" src="images/result.PNG">
+    <img width="80%" src="images/result_hetero.png">
 </p>
 
 >📋  This is the main result of our paper. This shows that with proper tuning of q and qms, we can get more balanced performance across clients from all the groups with different hardware capabilities. 
